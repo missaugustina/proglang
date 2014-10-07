@@ -1,0 +1,2687 @@
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "hw1test.sml";
+[opening hw1test.sml]
+hw1test.sml:7.14-7.22 Error: unbound variable or constructor: is_older
+hw1test.sml:9.14-9.29 Error: unbound variable or constructor: number_in_month
+hw1test.sml:11.14-11.30 Error: unbound variable or constructor: number_in_months
+hw1test.sml:13.14-13.28 Error: unbound variable or constructor: dates_in_month
+hw1test.sml:15.14-15.29 Error: unbound variable or constructor: dates_in_months
+hw1test.sml:17.14-17.21 Error: unbound variable or constructor: get_nth
+hw1test.sml:19.14-19.28 Error: unbound variable or constructor: date_to_string
+hw1test.sml:21.14-21.40 Error: unbound variable or constructor: number_before_reaching_sum
+hw1test.sml:23.14-23.24 Error: unbound variable or constructor: what_month
+hw1test.sml:25.15-25.26 Error: unbound variable or constructor: month_range
+hw1test.sml:27.15-27.21 Error: unbound variable or constructor: oldest
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:3.13 Error: syntax error: inserting  THEN
+homework1.sml:6.6-6.8 Error: syntax error: replacing  IF with  THEN
+homework1.sml:9.9-9.11 Error: syntax error: replacing  IF with  THEN
+homework1.sml:11.9-11.13 Error: syntax error: replacing  ELSE with  EQUALOP
+homework1.sml:13.6-13.10 Error: syntax error: replacing  ELSE with  EQUALOP
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:6.6 Error: syntax error: inserting  THEN
+homework1.sml:9.9 Error: syntax error: inserting  THEN
+homework1.sml:12.13-12.17 Error: syntax error: replacing  THEN with  EQUALOP
+homework1.sml:14.10-14.14 Error: syntax error: replacing  THEN with  EQUALOP
+homework1.sml:16.8-16.12 Error: syntax error: replacing  THEN with  EQUALOP
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:6.6 Error: syntax error: inserting  THEN
+homework1.sml:9.9 Error: syntax error: inserting  THEN
+homework1.sml:12.13-12.17 Error: syntax error: replacing  THEN with  EQUALOP
+homework1.sml:14.10-14.14 Error: syntax error: replacing  THEN with  EQUALOP
+homework1.sml:16.8-16.12 Error: syntax error: replacing  THEN with  EQUALOP
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:11.13-11.17 Error: syntax error: replacing  THEN with  EQUALOP
+homework1.sml:13.10-13.14 Error: syntax error: replacing  THEN with  EQUALOP
+homework1.sml:15.8-18.4 Error: syntax error: deleting  THEN ID FUN
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+- 
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:4.17-4.19 Error: unbound variable or constructor: ==
+homework1.sml:5.17-5.19 Error: unbound variable or constructor: ==
+homework1.sml:5.48-5.50 Error: unbound variable or constructor: ==
+homework1.sml:3.6-3.25 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {1=1,...} => 1)
+homework1.sml:3.6-3.25 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+homework1.sml:4.8-4.28 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {1=1,...} => 1)
+homework1.sml:4.39-4.58 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {2=2,...} => 2)
+homework1.sml:4.39-4.58 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+homework1.sml:5.8-5.28 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {1=1,...} => 1)
+homework1.sml:5.39-5.59 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {2=2,...} => 2)
+homework1.sml:5.70-5.89 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {3=3,...} => 3)
+homework1.sml:5.70-5.89 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {3=3,...} => 3)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:3.6-3.25 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {1=1,...} => 1)
+homework1.sml:3.6-3.25 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+homework1.sml:4.8-4.27 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {1=1,...} => 1)
+homework1.sml:4.8-4.27 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {1=1,...} => 1)
+homework1.sml:4.38-4.57 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {2=2,...} => 2)
+homework1.sml:4.38-4.57 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+homework1.sml:5.8-5.27 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {1=1,...} => 1)
+homework1.sml:5.8-5.27 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {1=1,...} => 1)
+homework1.sml:5.38-5.57 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {2=2,...} => 2)
+homework1.sml:5.38-5.57 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+homework1.sml:5.68-5.87 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {3=3,...} => 3)
+homework1.sml:5.68-5.87 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {3=3,...} => 3)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:3.6-3.25 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {1=1,...} => 1)
+homework1.sml:3.6-3.25 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+homework1.sml:4.8-4.27 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {1=1,...} => 1)
+homework1.sml:4.8-4.27 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {1=1,...} => 1)
+homework1.sml:4.38-4.57 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {2=2,...} => 2)
+homework1.sml:4.38-4.57 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+homework1.sml:5.8-5.27 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {1=1,...} => 1)
+homework1.sml:5.8-5.27 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {1=1,...} => 1)
+homework1.sml:5.38-5.57 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {2=2,...} => 2)
+homework1.sml:5.38-5.57 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+homework1.sml:5.68-5.87 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {3=3,...} => 3)
+homework1.sml:5.68-5.87 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {3=3,...} => 3)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:3.5-3.24 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {1=1,...} => 1)
+homework1.sml:3.5-3.24 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+homework1.sml:5.7-5.26 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {1=1,...} => 1)
+homework1.sml:5.7-5.26 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {1=1,...} => 1)
+homework1.sml:6.15-6.34 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {2=2,...} => 2)
+homework1.sml:6.15-6.34 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+homework1.sml:8.7-8.26 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {1=1,...} => 1)
+homework1.sml:8.7-8.26 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {1=1,...} => 1)
+homework1.sml:9.15-9.34 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {2=2,...} => 2)
+homework1.sml:9.15-9.34 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+homework1.sml:10.15-10.34 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {3=3,...} => 3)
+homework1.sml:10.15-10.34 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {3=3,...} => 3)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:6.15-6.34 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {2=2,...} => 2)
+homework1.sml:6.15-6.34 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:6.16-6.24 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {2=2,...} => 2)
+homework1.sml:6.29-6.37 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:6.16-6.24 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date1 (fn {2=2,...} => 2)
+homework1.sml:6.29-6.37 Error: operator is not a function [tycon mismatch]
+  operator: int * int * int
+  in expression:
+    date2 (fn {2=2,...} => 2)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val it = () : unit
+-  is_older((1,2,3),(2,3,4));
+val it = true : bool
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:25.25 Error: syntax error: inserting  ELSE
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:25.30 Error: syntax error: replacing  SEMICOLON with  EQUALOP
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:17.10-17.12 Error: unbound variable or constructor: ??
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:19.10-19.12 Error: unbound variable or constructor: ??
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val it = () : unit number_in_month([(2012,2,28),(2013,12,1)],2) = 1
+-  number_in_month([(2012,2,28),(2013,12,1)],2) = 1
+= ;
+val it = false : bool
+-  number_in_month([(2012,2,28),(2013,12,1)],2)
+= ;
+val it = 2 : int
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val it = () : unit
+-  number_in_month([(2012,2,28),(2013,12,1)],2);
+val it = 2 : int
+- val test2 =  number_in_month([(2012,2,28),(2013,12,1)],2);
+val test2 = 2 : int
+-  val test2 =  number_in_month([(2012,2,28),(2013,12,1)],2);
+val test2 = 2 : int
+-  val test2 =  number_in_month([(2012,2,28),(2013,12,1)],2);
+val test2 = 2 : int
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:27.1 Error: syntax error found at EOF
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val it = () : unit
+- val test2 =  number_in_month([(2012,2,28),(2013,12,1)],2);
+val test2 = 1 : int
+-  val foo =  number_in_month([(2012,2,28),(2013,2,1)],2);
+val foo = 2 : int
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:16.5-24.12 Error: types of if branches do not agree [literal]
+  then branch: 'Z option
+  else branch: int
+  in expression:
+    if null dates
+    then NONE
+    else let val nim = number_in_month <exp>
+         in if <exp> <exp> = month then 1 + nim else nim
+         end
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:21.13-23.27 Error: types of if branches do not agree [literal]
+  then branch: int
+  else branch: int option
+  in expression:
+    if (fn <pat> => <exp>) (hd dates) = month then 1 + nim else SOME nim
+homework1.sml:15.5-24.12 Error: right-hand-side of clause doesn't agree with function result type [literal]
+  expression:  _ option
+  result type:  int
+  in declaration:
+    number_in_month =
+      (fn (<pat> : (int * int * int) list,<pat> : int) =>
+            if null <exp> then NONE else let <dec> in <exp> end)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:15.5-24.12 Error: right-hand-side of clause doesn't agree with function result type [literal]
+  expression:  int option
+  result type:  int
+  in declaration:
+    number_in_month =
+      (fn (<pat> : (int * int * int) list,<pat> : int) =>
+            if null <exp> then NONE else let <dec> in <exp> end)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val it = () : unit
+-  val test2 =  number_in_month([(2012,2,28),(2013,12,1)],2);
+val test2 = 1 : int
+-  val test2 =  number_in_month([(2012,1,28),(2013,12,1)],2);
+val test2 = 0 : int
+-  val test2 =  number_in_month([(2012,2,28),(2013,12,1),(2015,2,5)],2);
+val test2 = 2 : int
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:33.53-33.55 Error: unbound variable or constructor: t1
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:33.21-33.63 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: (int * int * int) list * int
+  operand:         (int * int * int) list * int list
+  in expression:
+    number_in_month (tl dates,tl months)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val it = () : unit
+- val foo = number_in_months([(2012,2,28),(2013,12,1),(2011,3,31),(2011,4,28)],[2,3,4]);
+val foo = 1 : int
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:31.13 Error: syntax error: inserting  VAL
+homework1.sml:33.17 Error: syntax error: inserting  VAL
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+val foo = number_in_months([(2012,2,28),(2013,12,1),(2011,3,31),(2011,4,28)],[2,3,4]);[opening homework1.sml]
+homework1.sml:33.17 Error: syntax error: inserting  VAL
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:35.41-35.58 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: 'Z list
+  operand:         int
+  in expression:
+    tl month
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val it = () : un
+- 
+- val foo = number_in_months([(2012,2,28),(2013,12,1),(2011,3,31),(2011,4,28)],[2,3,4]);
+val foo = 1 : int
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val it = () : unit
+-val foo= number_in_months([(2012,2,28),(2013,12,1),(2011,3,31),(2011,4,28)],[2,3,4]);
+val foo = 1 : int
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val it = () : unit
+-val foo = number_in_months([(2012,2,28),(2013,12,1),(2011,3,31),(2011,4,28)],[2,3,4]);
+val foo = 1 : int
+- 
+
+Process sml finished
+
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:33.13-36.20 Error: operator is not a function [tycon mismatch]
+  operator: int
+  in expression:
+    let val count_per_month = number_in_month <exp> in count_per_month end
+        total_count
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val it = () : unit
+- val foo= number_in_months([(2012,2,28),(2013,12,1),(2011,3,31),(2011,4,28)],[2,3,4]);
+val foo = 1 : int
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val it = () : unit
+- val foo= number_in_months([(2012,2,28),(2013,12,1),(2011,3,31),(2011,4,28)],[2,3,4]);
+val foo = 2 : int
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val it = () : unit
+- val foo =  number_in_months([(2012,2,28),(2013,12,1),(2011,3,31),(2011,4,28)],[2,3,4]);
+val foo = 3 : int
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:43.5 Error: syntax error: inserting  EQUALOP
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:43.5 Error: syntax error: inserting  EQUALOP
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val append = fn : int * int list -> int list
+val it = () : unit
+- 
+- 
+- val foo = append(1, [1,2,3])
+= ;
+  C-c C-c
+Interrupt
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val append = fn : int * int list -> int list
+val it = () : unit
+- val foo = 1::[2,4,6];
+val foo = [1,2,4,6] : int list
+- 
+- val bar = append(1, [7,8,9]);
+val bar = [1,7,8,9] : int list
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:40.5 Error: syntax error: inserting  EQUALOP
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:46.18-46.44 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: int * int list
+  operand:         int * ((int * int * int) list * int)
+  in expression:
+    (fn {2=<pat>,...} => 2) (hd dates) :: dates_list
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:47.18-47.41 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: int * int list
+  operand:         int * ((int * int * int) list * int)
+  in expression:
+    curr_date :: dates_list
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:45.18-45.27 Error: unbound variable or constructor: curr_date
+homework1.sml:46.19-46.48 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: int * int list
+  operand:         int * ((int * int * int) list * int)
+  in expression:
+    (fn {2=<pat>,...} => 2) (hd dates) :: dates_list
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:46.19-46.48 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: int * int list
+  operand:         int * ((int * int * int) list * int)
+  in expression:
+    (fn {2=<pat>,...} => 2) (hd dates) :: dates_list
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:48.19-48.58 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: int * int list
+  operand:         int * ((int * int * int) list * int)
+  in expression:
+    append_one ((fn <pat> => <exp>) (hd dates),dates_list)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:40.5-48.12 Error: types of if branches do not agree [literal]
+  then branch: int
+  else branch: int list
+  in expression:
+    if null dates
+    then 0
+    else let val dates_list = dates_in_month <exp>
+         in if <exp> <exp> = month
+            then <exp> <exp> :: dates_list
+            else dates_list
+         end
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:40.5-45.49 Error: types of if branches do not agree [literal]
+  then branch: int
+  else branch: int list
+  in expression:
+    if null dates
+    then 0
+    else if (fn <rule>) (hd <exp>) = month
+         then (fn <rule>) (hd <exp>) :: dates_in_month (<exp>,<exp>)
+         else dates_in_month (tl <exp>,month)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:46.19-46.48 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: int * int list
+  operand:         int * ((int * int * int) list * int)
+  in expression:
+    (fn {2=<pat>,...} => 2) (hd dates) :: dates_list
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn : (int * int * int) list * int -> int list
+val it = () : unit
+- val test4 = dates_in_month([(2012,2,28),(2013,12,1)],2);
+val test4 = [2] : int list
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val counter = fn : int -> int
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val it = () : unit
+-  val test4 = dates_in_month([(2012,2,28),(2013,12,1)],2);
+val test4 = [(2012,2,28)] : (int * int * int) list
+-
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:55.34-55.44 Error: unbound variable or constructor: all_months
+homework1.sml:49.5-57.12 Error: types of if branches do not agree [literal]
+  then branch: int
+  else branch: (int * int * int) list
+  in expression:
+    if (null dates) orelse (null months)
+    then 0
+    else let val all_dates = dates_in_months <exp>
+         in let val <pat> = <exp> in dates_per_month @ <errorvar> end
+         end
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml"
+= ;
+[opening homework1.sml]
+homework1.sml:55.34-55.44 Error: unbound variable or constructor: all_months
+homework1.sml:49.5-57.12 Error: types of if branches do not agree [literal]
+  then branch: int
+  else branch: (int * int * int) list
+  in expression:
+    if (null dates) orelse (null months)
+    then 0
+    else let val all_dates = dates_in_months <exp>
+         in let val <pat> = <exp> in dates_per_month @ <errorvar> end
+         end
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val it = () : unit
+- val test4 = dates_in_month([(2012,2,28),(2013,12,1)],2) = [(2012,2,28)];
+val test4 = true : bool
+- val test5 = dates_in_months([(2012,2,28),(2013,12,1),(2011,3,31),(2011,4,28)],[2,3,4]) = [(2012,2,28),(2011,3,31),(2011,4,28)];
+val test5 = true : bool
+- val test5 = dates_in_months([(2012,2,28),(2013,12,1),(2011,3,31),(2011,4,28)],[2,3,4]);
+val test5 = [(2012,2,28),(2011,3,31),(2011,4,28)] : (int * int * int) list
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * nt * int) list
+val it = () : unit
+- val test6 = get_nth(["hi", "there", "how", "are", "you"], 2) = "there";
+stdIn:2.13-2.20 Error: unbound variable or constructor: get_nth
+-   : (int * int * int) list * int list -> (int * nt * int) list
+stdIn:1.4-1.7 Error: syntax error: deleting  COLON LPAREN
+stdIn:1.22-2.6 Error: syntax error: deleting  RPAREN ID
+stdIn:2.18-2.22 Error: syntax error: deleting  ARROW LPAREN
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]homework1.sml:60.10 Error: syntax error: inserting  THEN
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:63.7-63.13 Error: unbound variable or constructor: return
+
+uncaught exception Errorraised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val it = () : unit
+- val test6 = get_nth(["hi", "there", "how", "are", "you"], 2) = "there";
+val test6 = false : bool
+- val x = get_nth(["hi", "there", "fool"], 2);
+val x = "fool" : string
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- val test6 = get_nth(["hi", "there", "how", "are", "you"], 2) = "there";
+stdIn:1.14-1.21 Error: unbound variable or constructor: get_nth
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val it = () : unit
+- val test6 = get_nth(["hi", "there", "how", "are", "you"], 2) = "there";
+val test6 = true : bool
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:65.13-65.18 Error: unbound variable or constructor: dates
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:65.5-86.31 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: 'Z list
+  operand:         int * int * int
+  in expression:
+    null date
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml"
+= ;
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val it = () : unit
+- val x = date_to_string((2013,1,3));
+val x = "January 3 2013" : string
+- val y = date_to_string((1900,6,31));
+val y = "June 31 1900" : string
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val sum_list = fn : int list -> int
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+- val test8 = number_before_reaching_sum(10, [1,2,3,4,5]);
+val test8 = 1 : int
+- val x = sum_list([1,2,3,4,5]);
+val x = 15 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val sum_list = fn : int list -> int
+val acc = fn : int * int list -> int
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+- val test8 = number_before_reaching_sum(10, [1,2,3,4,5]);
+val test8 = 3 : int
+- val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+val x = 3 : int
+- val test8 = number_before_reaching_sum(20, [1,2,3,4,5]);
+val test8 = 3 : int
+- val y= number_before_reaching_sum(20, [1,2,3,4,5]);
+val y = 3 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val sum_list = fn : int list -> int
+val acc = fn : int * int list -> int
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+- val test8 = number_before_reaching_sum(10, [1,2,3,4,5]);
+val test8 = 3 : int
+- val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+val x = 3 : int
+- val y = number_before_reaching_sum(100, [1,2,3,4,5]);
+val y = 3 : int
+- val z = number_before_reaching_sum(10, [2,4,6,8,10]);
+val z = 6 : int
+- val a = number_before_reaching_sum(13,[2,4,6,8,10]);
+val a = 6 : int
+- val b = number_before_reaching_sum(20, [2,4,6,8,10]);
+val b = 6 : int
+- val c = number_before_reaching_sum(21, [2,4,6,8,10]
+= );
+val c = 6 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:80.5-81.15 Error: operator is not a function [tycon mismatch]
+  operator: unit
+  in expression:
+    (print (<exp> ^ <exp> ^ " hd nums is " ^ Int.toString (hd <exp>))) x
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val sum_list = fn : int list -> int
+val acc = fn : int * int list -> int
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+- val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ x is 1 hd nums is 2val x = 3 : int
+- 
+Pocess sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val sum_list = fn : int list -> int
+val total = fn : int * int list -> 'a
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+- val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ x is 1 hd nums is 2
+ x is 3 hd nums is 3
+ x is 6 hd nums is 4
+ x is 10 hd nums is 5
+
+uncaught exception Empty
+  raised at: smlnj/init/pervasive.sml:209.19-209.24
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> stringval sum_list = fn : int list -> int
+val total = fn : int * int list -> int
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+- val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ x is 1 hd nums is 2
+ x is 3 hd nums is 3
+ x is 6 hd nums is 4
+ x is 10 hd nums is 5
+
+uncaught exception Empty
+  raised at: smlnj/init/pervasive.sml:209.19-209.24
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val sum_list = fn : int list -> int
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+- val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+val x = 1 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val sum_list = fn : int list -> int
+val total = fn : int * int list -> int
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+- val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ hd nums is 2
+ hd nums is 3
+ hd nums is 4 hd nums is 5
+
+uncaught exception Empty
+  raised at: smlnj/init/pervasive.sml:209.19-209.24
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+stdIn:1.10-1.36 Error: unbound variable or constructor: number_before_reaching_sum
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val sum_list = fn : int list -> int
+val total = fn : int * int list -> int
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+- val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ hd nums is 2
+ hd nums is 3
+ hd nums is 4
+ hd nums is 5val x = 1 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val sum_list = fn : int list -> int
+val total = fn : int * int list -> int
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+- val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ x is 1 hd nums is 2
+ x is 3 hd nums is 3
+ x is 6 hd nums is 4
+ x is 10 hd nums is 5val x = 1 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val sum_list = fn : int list -> int
+val total = fn : int * int list -> int
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+- val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+val x = 2 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:87.5 Error: syntax error: inserting  VAL
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+
+uncaught exception Empty
+  raised at: smlnj/init/pervasive.sml:209.19-209.24
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+
+uncaught exception Empty
+  raised at: smlnj/init/pervasive.sml:209.19-209.24
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:87.3-95.10 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: 'Z list
+  operand:         'Y list -> 'Y list
+  in expression:
+    null tl
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+stdIn:1.11-1.37 Error: unbound variable or constructor: number_before_reaching_sum
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+val x = 0 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * it * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+val x = 10 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * it * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+val x = 10 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:93.66 Error: syntax error: inserting  RPAREN
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ x is 0  x is 1  x is 2  x is 3  x is 4  x is 1  x is 2  x is 3  x is 4 val x = 10 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ x is 0
+ x is 1
+ x is 2
+ x is 3
+ x is 4
+acc 
+ x is 1
+ x is 2
+ x is 3
+ x is 4
+val x = 10 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+stdIn:1.11-1.37 Error: unbound variable or constructor: number_before_reaching_sum
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ x is 0
+ x is 1
+ x is 3
+ x is 6
+ x is 10
+acc 
+ x is 1
+ x is 3 x is 6
+ x is 10
+val x = 0 : int
+- use "homework1.sml";
+[opening homework1.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ x is 0
+ x is 1
+ x is 3
+ x is 6
+ x is 10
+acc 
+ x is 0
+ x is 2
+ x is 5
+ x is 9
+val x = 0 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:90.22-90.25 Error: unbound type constructor: sum
+homework1.sml:91.29-91.33 Error: unbound variable or constructor: list
+homework1.sml:93.65-93.86 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: [E] * int * int list
+  operand:         int * int list
+  in expression:
+    acc (x + hd xs,tl xs)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:93.65-93.86 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: int * int * int list
+  operand:         int * int list
+  in expression:
+    acc (x + hd xs,tl xs)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+val x = 0 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ x is 0
+ x is 1
+ x is 3
+ x is 6
+val x = 10 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ x is 0
+ x is 1
+ x is 3
+ x is 6
+val x = 5 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ x is 0
+ x is 1
+ x is 3
+val x = 4 : int
+-  val y = number_before_reaching_sum(20, [1,2,3,4,5]);
+ x is 0
+ x is 1
+ x is 3
+ x is 6
+
+uncaught exception Empty
+  raised at: smlnj/init/pervasive.sml:209.19-209.24
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val it = () : unit
+-  val x = number_before_reaching_sum(11, [1,2,3,4,5]);
+ x is 0
+ x is 1
+ x is 3
+val x = 4 : int
+-  val x = number_before_reaching_sum(20, [1,2,3,4,5]);
+ x is 0
+ x is 1
+ x is 3
+ x is 6
+
+uncaught exception Empty
+  raised at: smlnj/init/pervasive.sml:209.19-209.24
+-  val x = number_before_reaching_sum(21, [2,4,6,8,10]);
+ x is 0
+ x is 2
+ x is 6
+val x = 8 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:86.1 Error: syntax error: inserting  VAL
+homework1.sml:95.9 Error: syntax error: inserting  EQUALOP
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:86.1 Error: syntax error: inserting  VAL
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val get_nth_count = fn : int list * int -> int
+val what_month = fn : int -> int
+val it = () : unit
+- val x = what_month(3);
+
+uncaught exception Empty
+  raised at: smlnj/init/pervasive.sml:211.19-211.24
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:97.13-97.16 Error: syntax error: replacing  VAL with  EQUALOP
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val get_nth_count = fn : int list * int * int -> int
+val what_month = fn : int -> int
+val it = () : unit
+- val x = what_month(3);
+val x = 0 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val get_nth_count = fn : int list * int * int -> int
+val what_month = fn : int -> int
+val it = () : unit
+- val x = what_month(3);
+val x = 1 : int
+- val x = what_month(350);
+val x = 4 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:87.11 Error: syntax error: inserting  THEN
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:93.34-93.38 Error: unbound variable or constructor: tail
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val it = () : unit
+- val x = what_month(350);
+val x = 12 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:102.11-105.40 Error: types of if branches do not agree [tycon mismatch]
+  then branch: int
+  else branch: int list
+  in expression:
+    if n = 0
+    then what_month a
+    else what_month a :: acc (<exp> - <exp>,<exp> + <exp>)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:102.11-105.40 Error: types of if branches do not agree [tycon mismatch]
+  then branch: int
+  else branch: int list
+  in expression:
+    if n = 0 then n else what_month a :: acc (<exp> - <exp>,<exp> + <exp>)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val it = () : unit
+- val x = month_range(20,35);
+val x = [] : int list
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val it = () : unit
+- val x = month_range(20,35);
+val x = [] : int list
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:102.75 Error: syntax error: replacing  DOT with  SEMICOLON
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val it = () : unit
+- val x = month_range(20,35);
+val x = [] : int list
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val it = () : unit
+- val x = month_range(20,35);
+ n is 16 a is 20/n n is 15 a is 21/n n is 14 a is 22/n n is 13 a is 23/n n is 12 a is 24/n n is 11 a is 25/n n is 10 a is 26/n n is 9 a is 27/n n is 8 a is 28/n n is 7 a is 29/n n is 6 a is 30/n n is 5 a is 31/n n is 4 a is 32/n n is 3 a is 33/n n is 2 a is 34/n n is 1 a is 35/n n is 0 a is 36/nval x = [1,1,1,1,1,1,1,1,1,1,1,2,...] : int list
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val it = () : unit
+- val x = month_range(20,35);
+ n is 16 a is 20
+ n is 15 a is 21
+ n is 14 a is 22
+ n is 13 a is 23
+ n is 12 a is 24
+ n is 11 a is 25
+ n is 10 a is 26
+ n is 9 a is 27
+ n is 8 a is 28
+ n is 7 a is 29
+ n is 6 a is 30
+ n is 5 a is 31
+ n is 4 a is 32
+ n is 3 a is 33
+ n is 2 a is 34
+ n is 1 a is 35
+ n is 0 a is 36
+val x = [1,1,1,1,1,1,1,1,1,1,1,2,...] : int list
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val it = () : unit
+- val test10 = month_range(31, 34) = [1,2,2,2];
+ n is 4 a is 31
+ n is 3 a is 32
+ n is 2 a is 33
+ n is 1 a is 34
+val test10 = false : bool
+- val x = month_range(31, 34);
+ n is 4 a is 31
+ n is 3 a is 32
+ n is 2 a is 33
+ n is 1 a is 34
+val x = [2,2,2] : int list
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml"
+= ;
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val it = () : unit
+- val test10 = month_range(31, 34);
+ n is 4 a is 31
+ n is 3 a is 32
+ n is 2 a is 33
+ n is 1 a is 34
+ n is 0 a is 35
+val test10 = [2,2,2,2] : int list
+- val test9 = what_month(70) = 3
+= ;
+val test9 = true : bool
+- what_month(31);
+val it = 2 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val it = () : unit
+- val x = what_month(31);
+val x = 1 : int
+- val y = month_range(31,34);
+ n is 4 a is 31
+ n is 3 a is 32
+ n is 2 a is 33
+ n is 1 a is 34
+ n is 0 a is 35
+val y = [1,2,2,2] : int list
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+homework1.sml:123.5 Error: syntax error: inserting  END
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:15.24-15.46
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+- val x = oldest([(2013,2,5), (2014,1,1)]);
+val x = SOME (2014,1,1) : (int * int * int) option
+- val y = is_older([(2013,2,5), (2014,1,1)]);
+stdIn:3.5-3.43 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: (int * int * int) * (int * int * int)
+  operand:         (int * int * int) list
+  in expression:
+    is_older ((2013,2,5) :: (2014,1,1) :: nil)
+- val y = is_older((2013,2,5), (2014,1,1));
+val y = false : bool
+- val t1 =  is_older((1,2,3),(2,3,4));
+val t1 = true : bool
+- val t2 = is_older((2013,1,1),(2013,1,2);
+= ;
+= );
+stdIn:5.39-6.2 Error: syntax error: deleting  RPAREN SEMICOLON SEMICOLON
+- val t2 = is_older((2013,1,1),(2013,1,2));
+val t2 = true : bool
+- val t3 = is_older((2013,1,1),(2014,1,1));
+val t3 = false : bool
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+- my x = oldest((2014,1,1),(2013,1,1),(2015,1,1));
+stdIn:2.1-2.3 Error: unbound variable or constructor: my
+stdIn:2.4 Error: unbound variable or constructor: x
+stdIn:2.1-2.48 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: (int * int * int) list
+  operand:         (int * int * int) * (int * int * int) * (int * int * int)
+  in expression:
+    oldest ((2014,1,1),(2013,1,1),(2015,1,1))
+- val x = oldest((2014,1,1),(2013,1,1),(2015,1,1));
+stdIn:1.6-2.28 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: (int * int * int) list
+  operand:         (int * int * int) * (int * int * int) * (int * int * int)
+  in expression:
+    oldest ((2014,1,1),(2013,1,1),(2015,1,1))
+- val x = oldest([(2014,1,1),(2013,1,1),(2015,1,1)]);
+val x = SOME (2013,1,1) : (int * int * int) option
+- val z = number_before_reaching_sum(5, [3,1,2]);
+val z = 1 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- val z = number_before_reaching_sum(5, [3,1,2]);
+stdIn:1.10-1.36 Error: unbound variable or constructor: number_before_reaching_sum
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+- val z = number_before_reaching_sum(5, [3,1,2]);
+val z = 1 : int
+- val a = number_before_reaching_sum(10, [1,2,3,4,5]);
+val a = 3 : int
+- number_before_reaching_sum(10, [1,2,3,4,5]) = 3;
+val it = true : bool
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+- number_before_reaching_sum(10, [1,2,3,4,5]) = 3
+= ;
+val it = false : bool
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+- number_before_reaching_sum(10, [1,2,3,4,5]) = 3
+= ;
+val it = true : bool
+- number_before_reaching_sum(10, [4,1,1,1]) = 6;
+= stdIn:5.2 Error: expression or pattern ends with infix identifier "="
+stdIn:4.1-5.2 Error: operator is not a function [tycon mismatch]
+  operator: bool
+  in expression:
+    (number_before_reaching_sum (10,<exp> :: <exp>) = 3) =
+- number_before_reaching_sum(10, [1,2,3,4,5]) = 3;
+val it = true : bool
+- number_before_reaching_sum(10, [4,1,1,1]) = 6;
+
+uncaught exception Empty
+  raised at: smlnj/init/pervasive.sml:209.19-209.24
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:81.27-81.49 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: string * string
+  operand:         string * int
+  in expression:
+    " head " ^ hd xs
+homework1.sml:82.27-82.50 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: string * string
+  operand:         string * int
+  in expression:
+    " acc x is " ^ x
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+- number_before_reaching_sum(10, [1,2,3,4,5]);
+ acc x is 0
+ acc x is 1
+ head 3
+val it = 3 : int
+- number_before_reaching_sum(6, [4,1,1,1]);
+ acc x is 0
+ head 1
+val it = 1 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:81.27-81.90 Error: operator is not a function [tycon mismatch]
+  operator: string
+  in expression:
+    (Int.toString (hd xs)) " x is "
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+- number_before_reaching_sum(10, [1,2,3,4,5]);
+ acc x is 0
+ acc x is 1
+ head 3 x is 3
+val it = 3 : int
+- number_before_reaching_sum(6, [4,1,1,1]);
+ acc x is 0
+ head 1 x is 4
+val it = 1 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+- number_before_reaching_sum(10, [1,2,3,4,5]);
+ acc x is 0
+ acc x is 1
+ head 3 x is 3
+val it = 3 : int
+- number_before_reaching_sum(6, [4,1,1,1]);
+ acc x is 0
+ head 1 x is 4
+val it = 4 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework.sml";
+[opening homework.sml]
+[use failed: Io: openIn failed on "homework.sml", No such file or directory]
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/interact.sml:24.14-24.28
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+homework1.sml:84.11-84.28 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: int * int * int list * int
+  operand:         int * int * int list
+  in expression:
+    acc (sum,0,nums)
+
+uncaught exception Error
+  raised at: ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+             ../compiler/TopLevel/interact/evalloop.sml:44.55
+             ../compiler/TopLevel/interact/evalloop.sml:296.17-296.20
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+- number_before_reaching_sum(10, [1,2,3,4,5]);
+ acc total is 0
+ acc total is 1
+ head 3 total is 3
+val it = 3 : int
+- number_before_reaching_sum(6, [4,1,1,1]);
+ acc total is 0
+ head 1 total is 4
+val it = 2 : int
+- number_before_reaching_sum(10, [1,2,3,4,5])
+= ;
+ acc total is 0
+ acc total is 1
+ head 3 total is 3
+val it = 3 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+- number_before_reaching_sum(10, [1,2,3,4,5]);
+ acc total is 0 i is 1
+ acc total is 1 i is 2
+ acc total is 3 i is 3
+ head 4 total 6 i is 4
+val it = 4 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+- number_before_reaching_sum(10, [1,2,3,4,5]);
+ acc total is 0 i is 0
+ acc total is 1 i is 1
+ acc total is 3 i is 2
+ head 4 total 6 i is 3
+val it = 3 : int
+- number_before_reaching_sum(6, [4,1,1,1]);
+ acc total is 0 i is 0
+ acc total is 4 i is 1
+ head 1 total 5 i is 2
+val it = 2 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.74 [built: Sat Oct  6 00:59:36 2012]
+- use "homework1.sml";
+[opening homework1.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[autoloading done]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val number_in_month = fn : (int * int * int) list * int -> int
+val number_in_months = fn : (int * int * int) list * int list -> int
+val dates_in_month = fn
+  : (int * int * int) list * int -> (int * int * int) list
+val dates_in_months = fn
+  : (int * int * int) list * int list -> (int * int * int) list
+val get_nth = fn : string list * int -> string
+val date_to_string = fn : int * int * int -> string
+val number_before_reaching_sum = fn : int * int list -> int
+val what_month = fn : int -> int
+val month_range = fn : int * int -> int list
+val oldest = fn : (int * int * int) list -> (int * int * int) option
+val it = () : unit
+- number_before_reaching_sum(10,[1,2,3,4,5]);
+0: 0+1<10
+1: 1+2<10
+2: 3+3<10
+3: 6+4>=10
+val it = 3 : int
+- number_before_reaching_sum(6,[4,1,1,1]);
+0: 0+4<6
+1: 4+1<6
+2: 5+1>=6
+val it = 2 : int
+- number_before_reaching_sum(5,[3,2,2]);
+0: 0+3<5
+1: 3+2>=5
+val it = 1 : int
+- 
