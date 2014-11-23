@@ -112,10 +112,47 @@ fun card_value (c : card) =
       | (_, Ace) => 11
       | _ => 10
 
+
+(* remove_card = fn : card list * card * exn -> card list *)
 (*
-remove_card = fn : card list * card * exn -> card list
-all_same_color = fn : card list -> bool
-sum_cards = fn : card list -> int
-score = fn : card list * int -> int
-officiate = fn : card list * move list * int -> int
+Write a function remove_card, which takes a list of cards cs, a card c, and an exception e. It returns a
+list that has all the elements of cs except c. If c is in the list more than once, remove only the first one.
+If c is not in the list, raise the exception e. You can compare cards with =.
 *)
+
+fun remove_card (cards : card list, card_to_remove : card, e : exn) =
+    case cards of
+        [] => raise e (* if the card list is empty, return an exception *)
+      | c::cards =>
+       if card_to_remove = c (* check if the top card matches our card to remove *)
+       then cards (* if it matches remove it and return the rest of the list *)
+       else (* if it doesn't match, *)
+           case remove_card(cards, card_to_remove, e) of (* check the rest of the list until we find a match *)
+               x => c::x (* append the one that didn't match back to the new list *)
+
+(* all_same_color = fn : card list -> bool *)
+(* return true if all cards are the same color *)
+fun all_same_color (cards: card list) =
+    case cards of
+        [] => true (* if the list is empty then technically all the colors are the same *)
+     | c1::c2::cards =>
+       if card_color(c1) = card_color(c2) (* check if the colors are the same *)
+       then all_same_color(cards)
+       (* we have a true condition but need to keep checking the list *)
+       else false (* we can stop checking and return false *)
+     | c::cards => true (* only 1 card in the list *)
+
+(* sum_cards = fn : card list -> int *)
+(* take a list of cards and return a sum of their values *)
+fun sum_cards (cards : card list) =
+    let
+        fun loop(acc : int, cards) =
+            case cards of
+                [] => acc
+              | c::cards => loop(card_value(c) + acc, cards)
+    in
+        loop(0, cards)
+    end
+
+(* score = fn : card list * int -> int *)
+(* officiate = fn : card list * move list * int -> int *)
