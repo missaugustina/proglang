@@ -49,8 +49,8 @@ fun get_substitutions2 ( string_lists : string list list, search_string : string
                 [] => acc
               | sl::string_lists =>
                 case all_except_option(search_string, sl) of
-                    NONE => aux( acc, string_lists, search_string)
-                  | SOME l => aux(l @ acc, string_lists, search_string)
+                    NONE => loop( acc, string_lists)
+                  | SOME l => loop(l @ acc, string_lists)
     in
         loop ([], string_lists)
     end
@@ -88,11 +88,11 @@ fun similar_names ( name_lists : string list list, full_name : {first:string, la
 (* you may assume that Num is always used with values 2, 3, ..., 10
    though it will not really come up *)
 datatype suit = Clubs | Diamonds | Hearts | Spades
-datatype rank = Jack | Queen | King | Ace | Num of int 
+datatype rank = Jack | Queen | King | Ace | Num of int
 type card = suit * rank
 
 datatype color = Red | Black
-datatype move = Discard of card | Draw 
+datatype move = Discard of card | Draw
 
 exception IllegalMove
 
@@ -105,7 +105,12 @@ fun card_color (c : card) =
       | (Spades, _) => Black
       | (Clubs, _) => Black
 
-
+(* card_value = fn : card -> int *)
+fun card_value (c : card) =
+    case c of
+        (_, Num x) => x
+      | (_, Ace) => 11
+      | _ => 10
 
 (*
 remove_card = fn : card list * card * exn -> card list
