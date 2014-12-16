@@ -1,0 +1,25 @@
+what is fp?
+
+avoiding mutability
+using functions as values (passing them around etc)
+uses recursion
+mathematical syntax
+"laziness"
+a functional language - just one where functional programming is the most conventional way to do it
+
+"first class" functions
+able to use function as a value
+most common use is as the result or argument of another function
+powerful way to factor out common functionality (instead of having to reimplement)
+functions that can be passed around
+
+function closure -
+uses bindings from outside the function definition
+things that are already in the env can be used by the function
+functions that can use things in the env, not just local vars and args
+
+** important conceptual distinction but not that big of a deal if it gets a little muddled
+
+Anonymous functions do everything other function bindings do EXCEPT recursion
+If it weren't for recursion, fun bindings would just be sytactic sugar
+

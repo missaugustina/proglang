@@ -205,10 +205,11 @@ fun officiate (cards : card list, moves : move list, goal : int) =
                     case cards of
                         [] => score(held_cards, goal) (* game end *)
                       | c::cards  =>
-                        let val sum = sum_cards(c::held_cards) (* cards in hand *)
+                        let
+                            val pre_score = score(c::held_cards, goal)
                         in
-                            if sum > goal (* we do this logic in score already...*)
-                            then score(c::held_cards, goal)
+                            if pre_score > goal
+                            then pre_score
                             else loop(c::held_cards, cards, moves, goal)
                         end
     in
