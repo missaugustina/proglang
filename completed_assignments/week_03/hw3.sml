@@ -35,21 +35,19 @@ datatype typ = Anything
          | Datatype of string
 
 (**** you can put all your code here ****)
+(* g = fn : (unit -> int) -> (string -> int) -> pattern -> int *)
 
 (* 1 *)
 (* only_capitals = fn : string list -> string list *)
-(* returns a string list that has only the strings in the argument that start with an uppercase letter. *)
 (* Use List.filter, Char.isUpper, and String.sub, 2 lines *)
-(* g = fn : (unit -> int) -> (string -> int) -> pattern -> int *)
-val g = fn x => Char.isUpper(String.sub(x, 0))
-val only_capitals = fn xs => List.filter g xs
-
+val only_capitals = fn xs =>
+                       let
+                           val is_capital = fn x => Char.isUpper(String.sub(x, 0))
+                       in
+                           List.filter is_capital xs
+                       end
 (* 2 *)
 (* longest_string1 = fn : string list -> string *)
-(* returns the longest string in the list.
-If the list is empty, return ""
-tie, return the string closest to the beginning of the list
-Use foldl, String.size, and no recursion *)
 
 val longest_string1 = fn xs =>
   List.foldl
@@ -64,13 +62,58 @@ val longest_string2 = fn xs =>
       (fn (x,y) => if String.size x >= String.size y then x else y)
       ""
       xs
+
 (*
-longest_string_helper = fn : (int * int -> bool) -> string list -> string
 longest_string3 = fn : string list -> string
 longest_string4 = fn : string list -> string
-longest_capitalized = fn : string list -> string
-rev_string = fn : string -> string
-first_answer = fn : (’a -> ’b option) -> ’a list -> ’b
+*)
+(* 4 *)
+(* longest_string_helper = fn : (int * int -> bool) -> string list -> string *)
+val longest_string_helper = fn f => fn xs =>
+  List.foldl
+      (fn (x,y) => if f (String.size x, String.size y) then x else y)
+      ""
+      xs
+
+val longest_string3 = fn xs => longest_string_helper (fn (x,y) => x > y) xs
+val longest_string4 = fn xs => longest_string_helper (fn (x,y) => x >= y) xs
+
+(* 5 *)
+(* longest_capitalized = fn : string list -> string *)
+val longest_capitalized =
+    longest_string3 o only_capitals
+(* 6 *)
+(* rev_string = fn : string -> string *)
+val rev_string = String.implode o List.rev o String.explode
+
+(* 7 *)
+(*
+Write a function first_answer of type
+(’a -> ’b option) -> ’a list -> ’b
+(notice the 2 arguments are curried)
+
+The first argument should be applied to elements of the second argument
+in order until the first time it returns
+ SOME v for some v
+and then v is the result of the call to first_answer.
+If the first argument returns NONE for all list elements,
+then first_answer should raise the exception
+NoAnswer. Hints: Sample solution is 5 lines and does nothing fancy.
+*)
+(* first_answer = fn : (’a -> ’b option) -> ’a list -> ’b *)
+fun first_answer f xs =
+  let
+      fun loop xs =
+          case xs of
+              [] => NONE
+            | x::xs => if f x then SOME x else loop xs
+  in
+      case loop xs of
+          NONE => raise NoAnswer
+        | x => x
+  end
+(*
+
 all_answers = fn : (’a -> ’b list option) -> ’a list -> ’b list option
 count_wildcards = fn : pattern -> int
 count_wild_and_variable_lengths = fn : pattern -> int
