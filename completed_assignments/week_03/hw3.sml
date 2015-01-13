@@ -132,17 +132,43 @@ fun count_wild_and_variable_lengths p =
     g (fn _ => 1) (fn (x) => size x) p
 ;
 
+(* 9c *)
 (* count_some_var = fn : string * pattern -> int *)
 fun count_some_var (s, p) =
     g (fn _ => 0) (fn (x) => if String.isSubstring s x then 1 else 0) p
+;
+
+(* 10 *)
+(* check_pat = fn : pattern -> bool *)
+ fun has_repeats xs =
+    case xs of
+        [] => false
+      | x::xs => List.exists (fn y => x = y) xs orelse has_repeats xs
+;
+
+fun var_names p =
+    case p of
+        Variable x => [x]
+     | ConstructorP (_,p) => var_names p
+     | TupleP ps => List.foldl (fn (p,i) => var_names p @ i) [] ps
+     | _ => []
+
+fun check_pat p =
+    has_repeats o var_names p
+;
+
 (*
-val test9c = count_some_var ("x", Variable("x"))
-that takes a string and a pattern (as a pair) and
-returns the number of times the string appears as a variable in the pattern.
-We care only about variable names; the constructor names are not relevant.
+Write a function match that takes a valu * pattern and returns a (string * valu) list option,
+namely NONE if the pattern does not match and SOME lst where lst is the list of bindings if it does.
+
+Note that if the value matches but the pattern has no patterns of the form Variable s, then the result is SOME [].
+
+Hints: Sample solution has one case expression with 7 branches. The branch for tuples uses all_answers and ListPair.zip.
+
+Sample solution is 13 lines. Remember to look above for the rules for what patterns match what values, and what bindings they produce. These are hints: We are not requiring all_answers and ListPair.zip here, but they make it easier.
 *)
-    (*
-check_pat = fn : pattern -> bool
-match = fn : valu * pattern -> (string * valu) list option
-first_match = fn : valu -> pattern list -> (string * valu) list option
-*)
+(* 11 *)
+(* match = fn : valu * pattern -> (string * valu) list option *)
+
+(* 12 *)
+(* first_match = fn : valu -> pattern list -> (string * valu) list option *)
