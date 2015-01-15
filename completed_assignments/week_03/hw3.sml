@@ -207,15 +207,14 @@ fun match (v,p) =
 
 (* 12 *)
 (* first_match = fn : valu -> pattern list -> (string * valu) list option *)
-(*
-Write a function first_match that takes a value and a list of patterns and returns a
-(string * valu) list option, namely NONE if no pattern in the list matches or SOME lst where
-lst is the list of bindings for the first pattern in the list that matches. Use first_answer and a
-handle-expression. Hints: Sample solution is 3 lines.
-*)
+(* return the list of bindings for the first pattern in the list that matches *)
 
 val first_match = fn v => fn ps =>
-    case first_answer match (List.foldl (fn (p,i) => [(v,p)] @ i) [] ps) of
-        SOME x => SOME x
-     | _ => NONE
+    let
+        val result = first_answer match (List.foldl (fn (p,i) => [(v,p)] @ i) [] ps)
+     in
+         case result of
+             SOME x => SOME x
+           | _ => NONE
+    end
     handle NoAnswer => NONE
