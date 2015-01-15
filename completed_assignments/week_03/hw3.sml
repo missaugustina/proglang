@@ -166,22 +166,14 @@ fun check_pat p =
     has_repeats(var_names p)
 ;
 
-(*
-Write a function match that takes a valu * pattern and returns a (string * valu) list option,
-namely NONE if the pattern does not match and SOME lst where lst is the list of bindings if it does.
-
-Note that if the value matches but the pattern has no patterns of the form Variable s, then the result is SOME [].
-
-Hints: Sample solution has one case expression with 7 branches. The branch for tuples uses all_answers and ListPair.zip.
-
-Sample solution is 13 lines. Remember to look above for the rules for what patterns match what values, and what bindings they produce. These are hints: We are not requiring all_answers and ListPair.zip here, but they make it easier.
-*)
+(* reminder
 datatype pattern = Wildcard
          | Variable of string
          | UnitP
          | ConstP of int
          | TupleP of pattern list
          | ConstructorP of string * pattern;
+*)
 
 datatype valu = Const of int
           | Unit
@@ -208,7 +200,6 @@ fun match (v,p) =
 (* 12 *)
 (* first_match = fn : valu -> pattern list -> (string * valu) list option *)
 (* return the list of bindings for the first pattern in the list that matches *)
-
 val first_match = fn v => fn ps =>
     let
         val result = first_answer match (List.foldl (fn (p,i) => [(v,p)] @ i) [] ps)
@@ -218,3 +209,4 @@ val first_match = fn v => fn ps =>
            | _ => NONE
     end
     handle NoAnswer => NONE
+; (* these ;'s are here so emacs tabbing isn't stupid *)
