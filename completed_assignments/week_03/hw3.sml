@@ -62,7 +62,7 @@ val longest_string4 = fn xs => longest_string_helper (fn (x,y) => x >= y) xs;
 (* Find the longest capitalized string *)
 val longest_capitalized =
     longest_string3 o only_capitals;
- 
+
 (* 6 *)
 (* rev_string = fn : string -> string *)
 (* Reverse a string *)
@@ -213,3 +213,9 @@ Write a function first_match that takes a value and a list of patterns and retur
 lst is the list of bindings for the first pattern in the list that matches. Use first_answer and a
 handle-expression. Hints: Sample solution is 3 lines.
 *)
+
+val first_match = fn v => fn ps =>
+    case first_answer match (List.foldl (fn (p,i) => [(v,p)] @ i) [] ps) of
+        SOME x => SOME x
+     | _ => NONE
+    handle NoAnswer => NONE
