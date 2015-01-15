@@ -1,5 +1,4 @@
 (* Coursera Programming Languages, Homework 3, Provided Code *)
-
 exception NoAnswer
 
 (**** for the challenge problem only ****)
@@ -112,11 +111,8 @@ datatype pattern = Wildcard
          | TupleP of pattern list
          | ConstructorP of string * pattern
 
-datatype valu = Const of int
-          | Unit
-          | Tuple of valu list
-          | Constructor of string * valu;
 (* g = fn : (unit -> int) -> (string -> int) -> pattern -> int (provided code) *)
+
 fun g f1 f2 p =
     let
     val r = g f1 f2
@@ -153,7 +149,7 @@ fun count_some_var (s, p) =
 (* 10 *)
 (* check_pat = fn : pattern -> bool *)
 (* check that all variable names are different *)
- fun has_repeats xs =
+fun has_repeats xs =
     case xs of
         [] => false
       | x::xs => List.exists (fn y => x = y) xs orelse has_repeats xs
@@ -167,7 +163,7 @@ fun var_names p =
      | _ => []
 
 fun check_pat p =
-    has_repeats o var_names p
+    has_repeats(var_names p)
 ;
 
 (*
@@ -180,8 +176,40 @@ Hints: Sample solution has one case expression with 7 branches. The branch for t
 
 Sample solution is 13 lines. Remember to look above for the rules for what patterns match what values, and what bindings they produce. These are hints: We are not requiring all_answers and ListPair.zip here, but they make it easier.
 *)
+datatype pattern = Wildcard
+         | Variable of string
+         | UnitP
+         | ConstP of int
+         | TupleP of pattern list
+         | ConstructorP of string * pattern;
+
+datatype valu = Const of int
+          | Unit
+          | Tuple of valu list
+          | Constructor of string * valu;
+
 (* 11 *)
 (* match = fn : valu * pattern -> (string * valu) list option *)
+(* given a valu pattern pair, return a list of any Variable bindings *)
+fun match (v,p) =
+    case (v,p) of
+        (_, Wildcard) => SOME []
+      | (Unit, UnitP) => SOME []
+      | (Const x, ConstP y) => if x = y then SOME [] else NONE
+      |  (Constructor (x,y), ConstructorP (a,b)) =>
+         if x = a then match(y,b) else NONE
+      | (x, Variable s) => SOME[(s,x)]
+      | (Tuple vs, TupleP ps) =>  if List.length vs = List.length ps
+                                  then all_answers match (ListPair.zip(vs, ps))
+                                  else NONE
+      | _ => NONE
+;
 
 (* 12 *)
 (* first_match = fn : valu -> pattern list -> (string * valu) list option *)
+(*
+Write a function first_match that takes a value and a list of patterns and returns a
+(string * valu) list option, namely NONE if no pattern in the list matches or SOME lst where
+lst is the list of bindings for the first pattern in the list that matches. Use first_answer and a
+handle-expression. Hints: Sample solution is 3 lines.
+*)
