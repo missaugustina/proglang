@@ -201,12 +201,7 @@ fun match (v,p) =
 (* first_match = fn : valu -> pattern list -> (string * valu) list option *)
 (* return the list of bindings for the first pattern in the list that matches *)
 val first_match = fn v => fn ps =>
-    let
-        val result = first_answer match (List.foldl (fn (p,i) => [(v,p)] @ i) [] ps)
-     in
-         case result of
-             SOME x => SOME x
-           | _ => NONE
-    end
+    first_answer match (List.foldl (fn (p,i) => [(v,p)] @ i) [] ps)
     handle NoAnswer => NONE
+
 ; (* these ;'s are here so emacs tabbing isn't stupid *)
