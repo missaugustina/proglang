@@ -200,8 +200,8 @@ fun match (v,p) =
 (* 12 *)
 (* first_match = fn : valu -> pattern list -> (string * valu) list option *)
 (* return the list of bindings for the first pattern in the list that matches *)
-val first_match = fn v => fn ps =>
-    first_answer match (List.foldl (fn (p,i) => [(v,p)] @ i) [] ps)
+fun first_match v ps =
+    first_answer (fn p => match(v,p)) ps
     handle NoAnswer => NONE
 
 ; (* these ;'s are here so emacs tabbing isn't stupid *)
